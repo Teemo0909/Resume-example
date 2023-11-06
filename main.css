@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit , sans-serif;
+}
+
+body {
+    background-color: #EBECF0;
+}
+
+.main {
+    width: 210mm;
+    height: 260mm;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+}
+.left-container {
+    width: 45%;
+    height: 100%;
+    background-color: #648804;
+    padding: 2.2rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.photo-container {
+    margin-bottom: 2.2rem;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: solid 10px white;
+}
+
+.contact-container {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.contact-container h1 {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+.contact-container i {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.contact-container p {
+    font-weight: 200;
+    margin: 10px;
+}
+
+.contact-container a {
+    font-weight: 200;
+    margin: 10px;
+}
+
+
+
+.skill-container {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2.2rem;
+}
+
+.skill-container h1 {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+.skill-container i {
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+
+.skill-container p {
+    font-weight: 200;
+    margin: 10px;
+}
+
+.introduction-container {
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+.introduction-container h1 {
+    font-size: 20px;
+}
+
+.introduction-container a {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.Right-container {
+    padding: 2.8rem;
+    background-color: white;
+    width: 55%;   
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Right-container .banner {
+    height: 120px;
+}
+
+
+
+.Right-container .banner h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+
+.Right-container .banner .position {
+    letter-spacing: 0.5rem;
+    margin-top: rem;
+    font-size: 24px;
+    color: #648804;
+}
+
+.aboutme {
+    height: 10rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutme h1 {
+    background-color: #648804;
+    height: 50px;
+    font-size: 2rem;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.aboutme p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.Soc {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.Soc .line i {
+    padding-right: 10px;
+}
+
+.Soc .Ins i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.education {
+    padding-top: 1rem;
+}
+
+.education .maineducation {
+    font-size: 2rem;
+}
+
+.education .education-info .info1 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.education  .education-info .info1 .school {
+    font-size: 20px;
+}
+
+.education  .education-info .info1 p{
+    font-weight: 200;
+}
+
+.hobbies-container {
+    padding-top: 1rem;
+}
+
+
+.hobbies-container h1 {
+    font-size: 2rem;
+}
+
+.hobbies-container .hobbies-info  {
+    display: flex;
+}
+
+.hobbies-container .hobbies-info p {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+
+.experience-container {
+    padding-top: 1rem;
+}
+
+
+.experience-container h1 {
+    font-size: 2rem;
+}
+
+.table-body {
+    padding: 10px;
+}
+
+table , td , th {
+    padding: 1rem;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table {
+    background-color: #EBECF0;
+    border-radius: 10px;
+}
+
+.Status {
+    background-color: #86e49d;
+    border-radius: 2rem;
+    color: #006b21;
+    text-align: center;
+}
+
+th {
+    font-weight: 500;
+}
+
+td {
+    font-weight: 300;
+}
